@@ -9,7 +9,7 @@ public class CartPage extends BasePage{
     public CartPage(AndroidDriver driver) {
         super(driver);
     }
-    @AndroidFindBy(xpath = "com.androidsample.generalstore:id/productName")
+    @AndroidFindBy(id = "com.androidsample.generalstore:id/productName")
     WebElement productAdded;
 
     public void validateProduct(String productName){
